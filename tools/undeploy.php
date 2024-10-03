@@ -15,6 +15,6 @@ foreach($files as $file) {
 	if(is_file($file)) 
 	
 		// Delete the given file 
-		unlink($file); 
+		rmdir($file); 
 } 
-?> 
+?>
