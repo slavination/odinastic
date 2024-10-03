@@ -1,4 +1,4 @@
 <?php 
-$dirname= 'data.txt'; 
+$dirname= 'data'; 
 rmdir($dirname); 
 ?> 
