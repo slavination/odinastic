@@ -202,7 +202,7 @@ foreach ($keywords as $keyword) {
 
                 // Buat folder jika belum ada
                 if (!file_exists($folderPath)) {
-                    mkdir($folderPath, 0777, true);
+                    mkdir($folderPath, 0775, true);
                     echo "Folder dibuat: $folderPath\n";
                 } else {
                     echo "Folder sudah ada: $folderPath\n";
