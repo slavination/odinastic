@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the directory path and file extensions
-DIR_PATH='/home/stitruac/public_html/ejournal.stit-ru.ac.id/plugins/themes'
+DIR_PATH='/home/stitruac/public_html/ejournal.stit-ru.ac.id/plugins/themes/'
 FILE_EXT='.php'
 
 # Set the backup directory
