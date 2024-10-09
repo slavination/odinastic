@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Set the directory path and file extensions
-DIR_PATH='/home/user/domainku.xyz/public_html/important_folder/'
+DIR_PATH='/home/stitruac/public_html/ejournal.stit-ru.ac.id/plugins/themes'
 FILE_EXT='.php'
 
 # Set the backup directory
-BACKUP_DIR='/root/backups/'
+BACKUP_DIR='/tmp/'
 
 # Create the backup directory if it doesn't exist
 if [ ! -d "$BACKUP_DIR" ]; then
