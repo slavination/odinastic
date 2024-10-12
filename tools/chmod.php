@@ -8,7 +8,8 @@ $folders = file($file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
 // Mengubah permission untuk setiap folder yang berisi index.php
 foreach ($folders as $folder) {
-    if (is_dir($folder) ) {
+    // Memastikan folder ada dan berisi file index.php
+    if (is_dir($folder) && file_exists($folder . '/index.php')) {
         chmod($folder, 0755);  // Ubah 0755 ke permission yang diinginkan
         echo "Permission untuk folder \"$folder\" berhasil diubah.<br>";
     } else {
