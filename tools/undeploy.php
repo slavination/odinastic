@@ -29,7 +29,7 @@ function deleteDir($dir) {
 
 // Menghapus setiap folder yang terdaftar jika ada file index.php di dalamnya
 foreach ($folders as $folder) {
-    if (is_dir($folder) && file_exists($folder . '/index.php')) {
+    if (is_dir($folder)) {
         deleteDir($folder);
         echo "Folder \"$folder\" beserta isinya berhasil dihapus.<br>";
     } else {
