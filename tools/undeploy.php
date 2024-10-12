@@ -1,5 +1,4 @@
 <?php
-
 // Nama file yang berisi daftar folder yang akan diperiksa
 $file = 'data.txt';
 
