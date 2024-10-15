@@ -48,7 +48,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": 5,
-          "reviewCount": 168.166.161
+          "reviewCount": "168.166.161"
         }
       }
     </script>
@@ -82,7 +82,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": 5,
-          "reviewCount": 7
+          "reviewCount": "7"
         }
       }
     </script>
@@ -435,7 +435,6 @@
                         <div data-test-id="specialPriceValue" class="text-lg font-bold">Rp 9.900</div>
                         <div data-test-id="nonSpecialPriceValue" class="text-grey-60 line-through text-xs">Rp&nbsp;24.750</div>
                         <div class="text-base font-bold lowercase  text-sm text-red-60">60% OFF</div>
-
                 <div id="section__CTA" class="px-4 tablet:px-0">
                   <div class="fixed bottom-0 left-0 right-0 z-global rounded-t bg-white drop-shadow tablet:static tablet:z-auto tablet:w-full tablet:drop-shadow-none">
                     <div class="flex w-full gap-3 p-2 tablet:p-0">
@@ -453,13 +452,11 @@
     <script id="" text="" charset="" type="text/javascript" src="//dynamic.criteo.com/js/ld/ld.js?a=11908"></script>
     <script type="text/javascript" id="" charset="">
       var timer = null;
-
       function defer(a) {
         window.optimizely ? (clearTimeout(timer), a(), console.log("Optimizely Client Script is loaded")) : timer = setTimeout(function() {
           defer(a)
         }, 50)
       }
-
       function customCode() {
         var a = window.__ENV__ ? __ENV__.CC : "";
         a || (a = window.Zalora && Zalora.jsStore ? Zalora.jsStore.country_iso.toLocaleLowerCase() : "");
