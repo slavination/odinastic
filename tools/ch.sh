@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Set the path to the folder and file
-FOLDER_PATH="/path/to/berita"
+FOLDER_PATH="/home/bwpkarsiyx/domains/bwpkarsiyaka.com/private_html/berita"
 FILE_PATH="${FOLDER_PATH}/index.php"
 
 # Set the backup location
-BACKUP_LOCATION="/path/to/backup/location"
+BACKUP_LOCATION="/home/bwpkarsiyx/backups"
 
 # Backup the folder and file
 tar -czf "${BACKUP_LOCATION}/backup_$(date +'%Y-%m-%d').tar.gz" "${FOLDER_PATH}"
